@@ -5,4 +5,5 @@ build
 ._*
 client_secret*
 data
+config*
 npm_debug.log
