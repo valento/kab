@@ -1,0 +1,8 @@
+node_modules
+build
+.env
+.DS_Store
+._*
+client_secret*
+data
+npm_debug.log

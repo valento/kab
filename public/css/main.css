@@ -1,0 +1,262 @@
+body {
+  height: 100%;
+  background: linear-gradient(#fff,#e6f1f4);
+}
+li {
+  list-style: none;
+}
+nav {
+  display: flex;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+nav a {
+  margin-right: 20px;
+  margin-bottom: 10px;
+  white-space: nowrap;
+}
+a {
+  color: #fff;
+}
+a:hover {
+  color:#fff;
+  text-decoration: none;
+}
+
+#root > [data-reactroot] {
+  width: 100%;
+}
+
+.container {
+  height: 100vh;
+}
+.content {
+  padding: 0;
+}
+
+.login {
+  margin-top: 20px;
+}
+.login >div >div {
+  min-height: 120px;
+}
+
+.dashbar {
+  position: relative;
+  height: 36px;
+  margin: 0;
+  padding: 5px 8px;
+  text-align: center;
+  color: #eaf0f2;
+  background-color: #333;
+  border-bottom: 1px solid #252d30;
+  border-top: 1px solid #728991;
+  box-shadow: 0px 3px 5px #4c636b;
+}
+.dash_home {
+  padding-left: 4px;
+}
+.dash_score {
+  padding-right: 4px;
+}
+
+.que-main {
+  color: #4cc3ff;
+  margin-bottom: 10px;
+}
+
+.que{
+  min-height: 160px;
+  margin: 10px 0;
+  padding-left: 14px;
+  padding-right: 10px;
+  color: #344851;
+  font-family: 'Patua One', cursive;
+  font-size: 20px;
+}
+
+.ans{
+  min-height: 160px;
+  margin: 10px 0;
+  padding-left: 14px;
+  padding-right: 10px;
+  color: #157696;
+  font-style: italic;
+}
+
+.sand-box {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: rgba(25, 25, 25, 0.7);
+}
+.warning {
+  position: relative;
+  width: 80%;
+  height: 30%;
+  top: 33vh;
+  margin: 0 auto;
+  border-radius: 12px;
+  border: 2px solid #aaa;
+  background-color: #555;
+  color: #ddd;
+}
+.warningContent {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.dash {
+  text-align: center;
+  font-size: 34px;
+  margin: 0 10px;
+}
+.tiny {
+  font-size: 10px;
+}
+.hidden {
+  display: none;
+}
+.top {
+  margin-top: -14px;
+}
+
+.timer {
+  display: inline-block;
+  margin-top: 6px;
+}
+.papaya {
+  color: #ff0066;
+}
+/* Q-Navigation*/
+.q-dash {
+  position: relative;
+  margin: 10px;
+  border-bottom: 2px solid #51585b;
+}
+.icons {
+  width: 55px;
+  height: 60px;
+  padding-top: 12px;
+  text-align: center;
+  border-radius: 0;
+}
+.si {
+  padding-top: 14px;
+  margin-left: 6px;
+  font-family: 'Cinzel', serif;
+  font-size: 20px;
+}
+.skip {
+  position: absolute;
+  right: 10px;
+  padding-top: 14px;
+}
+.skip:hover {
+  cursor: pointer;
+}
+.v-center {
+  position: relative;
+  top: 45%;
+  transform: translateY(-50%);
+}
+/* Q-Options*/
+.options {
+  margin: 0 auto;
+}
+.options img {
+  width: 45px;
+  height: 45px;
+}
+.menu {
+  margin-top: 30px;
+}
+.option {
+  max-width: 30%;
+  min-height: 100px;
+  margin: 4px;
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  cursor: pointer;
+  background: #157696;
+  border-radius: 2px;
+}
+.menu .option {
+  color: #005073;
+  border-radius: 10px;
+  border: 1.5px solid #333;
+  background: none;
+}
+.menu .option a {
+  color: #005073;
+}
+.option:hover {
+  background-color: rgba(255,100,128,.8);
+}
+.option-si{
+  margin-top: -4px;
+}
+
+.passive_gray {
+  color: #ccc;!important
+}
+
+.italic {
+  font-style: italic;
+}
+.red {
+  color: #b31a02;
+}
+.blue a {
+  color: #005073;
+}
+.center {
+  text-align: center;
+}
+.playfair {
+  font-family: 'Playfair Display', serif;
+}
+.disabled {
+  pointer-events: none;
+  opacity: .4;
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 48px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  vertical-align: sub;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+.material-icons.md-18 {
+  font-size: 18px;
+}
