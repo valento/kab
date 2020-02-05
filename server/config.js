@@ -8,7 +8,7 @@ export const auth = {
       secret: ''
     },
     fb: {
-      id: '',//process.env.FACEBOOK_APP_ID,
-      secret: ''//process.env.FACEBOOK_APP_SECRET
+      id: '380447152056700',//process.env.FACEBOOK_APP_ID,
+      secret: 'ea4370b02e162a83acabb029de4fe091'//process.env.FACEBOOK_APP_SECRET
     }
 }

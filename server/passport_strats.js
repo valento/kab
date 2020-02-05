@@ -7,8 +7,8 @@ import { auth } from './config'
 // authenticate(strategy,callback)
 export function fbStr() {
   passport.use(new FbStrategy({
-    clientID: '380447152056700',
-    clientSecret: 'ea4370b02e162a83acabb029de4fe091',
+    clientID: auth.fb.id,
+    clientSecret: auth.fb.secret,
     callbackURL: 'http://localhost:3000/user/auth/fb/callback',
     profileFields: ['id', 'displayName', 'gender', 'email']
   },
